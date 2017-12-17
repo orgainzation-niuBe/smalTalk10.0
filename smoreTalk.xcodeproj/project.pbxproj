@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042B5CED1FE698B000525DBD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5CEC1FE698B000525DBD /* MainViewController.m */; };
+		042B5CF01FE6996B00525DBD /* KuangJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B5CEF1FE6996B00525DBD /* KuangJiaViewController.m */; };
 		048EA1051FE68C8A0071F1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1041FE68C8A0071F1DA /* main.m */; };
 		048EA1081FE68C8A0071F1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1071FE68C8A0071F1DA /* AppDelegate.m */; };
 		048EA10B1FE68C8A0071F1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA10A1FE68C8A0071F1DA /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		048EA1131FE68C8A0071F1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EA1111FE68C8A0071F1DA /* LaunchScreen.storyboard */; };
 		048EA11E1FE68C8A0071F1DA /* smoreTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA11D1FE68C8A0071F1DA /* smoreTalkTests.m */; };
 		048EA1291FE68C8A0071F1DA /* smoreTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */; };
-		048EA1381FE68D9C0071F1DA /* KuangJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1371FE68D9C0071F1DA /* KuangJiaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* Begin PBXFileReference section */
 		042B5CEB1FE698B000525DBD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		042B5CEC1FE698B000525DBD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		042B5CEE1FE6996B00525DBD /* KuangJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuangJiaViewController.h; sourceTree = "<group>"; };
+		042B5CEF1FE6996B00525DBD /* KuangJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuangJiaViewController.m; sourceTree = "<group>"; };
 		048EA1001FE68C8A0071F1DA /* smoreTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smoreTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048EA1041FE68C8A0071F1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048EA1061FE68C8A0071F1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		048EA1241FE68C8A0071F1DA /* smoreTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoreTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smoreTalkUITests.m; sourceTree = "<group>"; };
 		048EA12A1FE68C8A0071F1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		048EA1361FE68D9C0071F1DA /* KuangJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuangJiaViewController.h; sourceTree = "<group>"; };
-		048EA1371FE68D9C0071F1DA /* KuangJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuangJiaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 				048EA1071FE68C8A0071F1DA /* AppDelegate.m */,
 				048EA1091FE68C8A0071F1DA /* ViewController.h */,
 				048EA10A1FE68C8A0071F1DA /* ViewController.m */,
-				048EA1361FE68D9C0071F1DA /* KuangJiaViewController.h */,
-				048EA1371FE68D9C0071F1DA /* KuangJiaViewController.m */,
+				042B5CEE1FE6996B00525DBD /* KuangJiaViewController.h */,
+				042B5CEF1FE6996B00525DBD /* KuangJiaViewController.m */,
 				048EA10C1FE68C8A0071F1DA /* Main.storyboard */,
 				048EA10F1FE68C8A0071F1DA /* Assets.xcassets */,
 				042B5CEB1FE698B000525DBD /* MainViewController.h */,
@@ -286,10 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048EA1381FE68D9C0071F1DA /* KuangJiaViewController.m in Sources */,
 				048EA10B1FE68C8A0071F1DA /* ViewController.m in Sources */,
 				048EA1081FE68C8A0071F1DA /* AppDelegate.m in Sources */,
 				042B5CED1FE698B000525DBD /* MainViewController.m in Sources */,
+				042B5CF01FE6996B00525DBD /* KuangJiaViewController.m in Sources */,
 				048EA1051FE68C8A0071F1DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
