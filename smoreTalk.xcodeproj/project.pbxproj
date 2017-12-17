@@ -15,6 +15,7 @@
 		048EA1131FE68C8A0071F1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EA1111FE68C8A0071F1DA /* LaunchScreen.storyboard */; };
 		048EA11E1FE68C8A0071F1DA /* smoreTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA11D1FE68C8A0071F1DA /* smoreTalkTests.m */; };
 		048EA1291FE68C8A0071F1DA /* smoreTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */; };
+		048EA1381FE68D9C0071F1DA /* KuangJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1371FE68D9C0071F1DA /* KuangJiaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		048EA1241FE68C8A0071F1DA /* smoreTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoreTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smoreTalkUITests.m; sourceTree = "<group>"; };
 		048EA12A1FE68C8A0071F1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048EA1361FE68D9C0071F1DA /* KuangJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuangJiaViewController.h; sourceTree = "<group>"; };
+		048EA1371FE68D9C0071F1DA /* KuangJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuangJiaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				048EA1071FE68C8A0071F1DA /* AppDelegate.m */,
 				048EA1091FE68C8A0071F1DA /* ViewController.h */,
 				048EA10A1FE68C8A0071F1DA /* ViewController.m */,
+				048EA1361FE68D9C0071F1DA /* KuangJiaViewController.h */,
+				048EA1371FE68D9C0071F1DA /* KuangJiaViewController.m */,
 				048EA10C1FE68C8A0071F1DA /* Main.storyboard */,
 				048EA10F1FE68C8A0071F1DA /* Assets.xcassets */,
 				048EA1111FE68C8A0071F1DA /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048EA1381FE68D9C0071F1DA /* KuangJiaViewController.m in Sources */,
 				048EA10B1FE68C8A0071F1DA /* ViewController.m in Sources */,
 				048EA1081FE68C8A0071F1DA /* AppDelegate.m in Sources */,
 				048EA1051FE68C8A0071F1DA /* main.m in Sources */,
@@ -514,6 +520,7 @@
 				048EA12F1FE68C8A0071F1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048EA1301FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				048EA1321FE68C8A0071F1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048EA1331FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				048EA1351FE68C8A0071F1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
