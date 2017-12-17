@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048EA1051FE68C8A0071F1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1041FE68C8A0071F1DA /* main.m */; };
+		048EA1081FE68C8A0071F1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1071FE68C8A0071F1DA /* AppDelegate.m */; };
+		048EA10B1FE68C8A0071F1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA10A1FE68C8A0071F1DA /* ViewController.m */; };
+		048EA10E1FE68C8A0071F1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EA10C1FE68C8A0071F1DA /* Main.storyboard */; };
+		048EA1101FE68C8A0071F1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048EA10F1FE68C8A0071F1DA /* Assets.xcassets */; };
+		048EA1131FE68C8A0071F1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048EA1111FE68C8A0071F1DA /* LaunchScreen.storyboard */; };
+		048EA11E1FE68C8A0071F1DA /* smoreTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA11D1FE68C8A0071F1DA /* smoreTalkTests.m */; };
+		048EA1291FE68C8A0071F1DA /* smoreTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048EA11A1FE68C8A0071F1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048EA0F81FE68C8A0071F1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048EA0FF1FE68C8A0071F1DA;
+			remoteInfo = smoreTalk;
+		};
+		048EA1251FE68C8A0071F1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048EA0F81FE68C8A0071F1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048EA0FF1FE68C8A0071F1DA;
+			remoteInfo = smoreTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048EA1001FE68C8A0071F1DA /* smoreTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smoreTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EA1041FE68C8A0071F1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048EA1061FE68C8A0071F1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048EA1071FE68C8A0071F1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048EA1091FE68C8A0071F1DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048EA10A1FE68C8A0071F1DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048EA10D1FE68C8A0071F1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048EA10F1FE68C8A0071F1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048EA1121FE68C8A0071F1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048EA1141FE68C8A0071F1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048EA1191FE68C8A0071F1DA /* smoreTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoreTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EA11D1FE68C8A0071F1DA /* smoreTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smoreTalkTests.m; sourceTree = "<group>"; };
+		048EA11F1FE68C8A0071F1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048EA1241FE68C8A0071F1DA /* smoreTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoreTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smoreTalkUITests.m; sourceTree = "<group>"; };
+		048EA12A1FE68C8A0071F1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048EA0FD1FE68C8A0071F1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EA1161FE68C8A0071F1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EA1211FE68C8A0071F1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048EA0F71FE68C8A0071F1DA = {
+			isa = PBXGroup;
+			children = (
+				048EA1021FE68C8A0071F1DA /* smoreTalk */,
+				048EA11C1FE68C8A0071F1DA /* smoreTalkTests */,
+				048EA1271FE68C8A0071F1DA /* smoreTalkUITests */,
+				048EA1011FE68C8A0071F1DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048EA1011FE68C8A0071F1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048EA1001FE68C8A0071F1DA /* smoreTalk.app */,
+				048EA1191FE68C8A0071F1DA /* smoreTalkTests.xctest */,
+				048EA1241FE68C8A0071F1DA /* smoreTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048EA1021FE68C8A0071F1DA /* smoreTalk */ = {
+			isa = PBXGroup;
+			children = (
+				048EA1061FE68C8A0071F1DA /* AppDelegate.h */,
+				048EA1071FE68C8A0071F1DA /* AppDelegate.m */,
+				048EA1091FE68C8A0071F1DA /* ViewController.h */,
+				048EA10A1FE68C8A0071F1DA /* ViewController.m */,
+				048EA10C1FE68C8A0071F1DA /* Main.storyboard */,
+				048EA10F1FE68C8A0071F1DA /* Assets.xcassets */,
+				048EA1111FE68C8A0071F1DA /* LaunchScreen.storyboard */,
+				048EA1141FE68C8A0071F1DA /* Info.plist */,
+				048EA1031FE68C8A0071F1DA /* Supporting Files */,
+			);
+			path = smoreTalk;
+			sourceTree = "<group>";
+		};
+		048EA1031FE68C8A0071F1DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048EA1041FE68C8A0071F1DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048EA11C1FE68C8A0071F1DA /* smoreTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				048EA11D1FE68C8A0071F1DA /* smoreTalkTests.m */,
+				048EA11F1FE68C8A0071F1DA /* Info.plist */,
+			);
+			path = smoreTalkTests;
+			sourceTree = "<group>";
+		};
+		048EA1271FE68C8A0071F1DA /* smoreTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048EA1281FE68C8A0071F1DA /* smoreTalkUITests.m */,
+				048EA12A1FE68C8A0071F1DA /* Info.plist */,
+			);
+			path = smoreTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048EA0FF1FE68C8A0071F1DA /* smoreTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048EA12D1FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalk" */;
+			buildPhases = (
+				048EA0FC1FE68C8A0071F1DA /* Sources */,
+				048EA0FD1FE68C8A0071F1DA /* Frameworks */,
+				048EA0FE1FE68C8A0071F1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smoreTalk;
+			productName = smoreTalk;
+			productReference = 048EA1001FE68C8A0071F1DA /* smoreTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048EA1181FE68C8A0071F1DA /* smoreTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048EA1301FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalkTests" */;
+			buildPhases = (
+				048EA1151FE68C8A0071F1DA /* Sources */,
+				048EA1161FE68C8A0071F1DA /* Frameworks */,
+				048EA1171FE68C8A0071F1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048EA11B1FE68C8A0071F1DA /* PBXTargetDependency */,
+			);
+			name = smoreTalkTests;
+			productName = smoreTalkTests;
+			productReference = 048EA1191FE68C8A0071F1DA /* smoreTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048EA1231FE68C8A0071F1DA /* smoreTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048EA1331FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalkUITests" */;
+			buildPhases = (
+				048EA1201FE68C8A0071F1DA /* Sources */,
+				048EA1211FE68C8A0071F1DA /* Frameworks */,
+				048EA1221FE68C8A0071F1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048EA1261FE68C8A0071F1DA /* PBXTargetDependency */,
+			);
+			name = smoreTalkUITests;
+			productName = smoreTalkUITests;
+			productReference = 048EA1241FE68C8A0071F1DA /* smoreTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048EA0F81FE68C8A0071F1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					048EA0FF1FE68C8A0071F1DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TE7JH4FV3T;
+						ProvisioningStyle = Automatic;
+					};
+					048EA1181FE68C8A0071F1DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TE7JH4FV3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 048EA0FF1FE68C8A0071F1DA;
+					};
+					048EA1231FE68C8A0071F1DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TE7JH4FV3T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 048EA0FF1FE68C8A0071F1DA;
+					};
+				};
+			};
+			buildConfigurationList = 048EA0FB1FE68C8A0071F1DA /* Build configuration list for PBXProject "smoreTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048EA0F71FE68C8A0071F1DA;
+			productRefGroup = 048EA1011FE68C8A0071F1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048EA0FF1FE68C8A0071F1DA /* smoreTalk */,
+				048EA1181FE68C8A0071F1DA /* smoreTalkTests */,
+				048EA1231FE68C8A0071F1DA /* smoreTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048EA0FE1FE68C8A0071F1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EA1131FE68C8A0071F1DA /* LaunchScreen.storyboard in Resources */,
+				048EA1101FE68C8A0071F1DA /* Assets.xcassets in Resources */,
+				048EA10E1FE68C8A0071F1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EA1171FE68C8A0071F1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EA1221FE68C8A0071F1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048EA0FC1FE68C8A0071F1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EA10B1FE68C8A0071F1DA /* ViewController.m in Sources */,
+				048EA1081FE68C8A0071F1DA /* AppDelegate.m in Sources */,
+				048EA1051FE68C8A0071F1DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EA1151FE68C8A0071F1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EA11E1FE68C8A0071F1DA /* smoreTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048EA1201FE68C8A0071F1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048EA1291FE68C8A0071F1DA /* smoreTalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048EA11B1FE68C8A0071F1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048EA0FF1FE68C8A0071F1DA /* smoreTalk */;
+			targetProxy = 048EA11A1FE68C8A0071F1DA /* PBXContainerItemProxy */;
+		};
+		048EA1261FE68C8A0071F1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048EA0FF1FE68C8A0071F1DA /* smoreTalk */;
+			targetProxy = 048EA1251FE68C8A0071F1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048EA10C1FE68C8A0071F1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048EA10D1FE68C8A0071F1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048EA1111FE68C8A0071F1DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048EA1121FE68C8A0071F1DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048EA12B1FE68C8A0071F1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048EA12C1FE68C8A0071F1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048EA12E1FE68C8A0071F1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TE7JH4FV3T;
+				INFOPLIST_FILE = smoreTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duiliao.smoreTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048EA12F1FE68C8A0071F1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TE7JH4FV3T;
+				INFOPLIST_FILE = smoreTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duiliao.smoreTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048EA1311FE68C8A0071F1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TE7JH4FV3T;
+				INFOPLIST_FILE = smoreTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duiliao.smoreTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smoreTalk.app/smoreTalk";
+			};
+			name = Debug;
+		};
+		048EA1321FE68C8A0071F1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TE7JH4FV3T;
+				INFOPLIST_FILE = smoreTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duiliao.smoreTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smoreTalk.app/smoreTalk";
+			};
+			name = Release;
+		};
+		048EA1341FE68C8A0071F1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TE7JH4FV3T;
+				INFOPLIST_FILE = smoreTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duiliao.smoreTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smoreTalk;
+			};
+			name = Debug;
+		};
+		048EA1351FE68C8A0071F1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TE7JH4FV3T;
+				INFOPLIST_FILE = smoreTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duiliao.smoreTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smoreTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048EA0FB1FE68C8A0071F1DA /* Build configuration list for PBXProject "smoreTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EA12B1FE68C8A0071F1DA /* Debug */,
+				048EA12C1FE68C8A0071F1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048EA12D1FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EA12E1FE68C8A0071F1DA /* Debug */,
+				048EA12F1FE68C8A0071F1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048EA1301FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EA1311FE68C8A0071F1DA /* Debug */,
+				048EA1321FE68C8A0071F1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		048EA1331FE68C8A0071F1DA /* Build configuration list for PBXNativeTarget "smoreTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048EA1341FE68C8A0071F1DA /* Debug */,
+				048EA1351FE68C8A0071F1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048EA0F81FE68C8A0071F1DA /* Project object */;
+}
